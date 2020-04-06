@@ -31,7 +31,10 @@ THIRDPARTY_APPS = [
     'rest_framework'
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = [
+    'omni_test.users.apps.UsersConfig',
+    'omni_test.products.apps.ProductsConfig',
+]
 
 INSTALLED_APPS = DJANGO_APPS + THIRDPARTY_APPS + LOCAL_APPS
 
